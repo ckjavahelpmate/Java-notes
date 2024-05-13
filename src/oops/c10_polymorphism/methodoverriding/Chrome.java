@@ -8,6 +8,7 @@ public class Chrome extends BaseClass {
 
 class Edge extends BaseClass {
     public void login() {
+
         System.out.println("Edge");
     }
 }

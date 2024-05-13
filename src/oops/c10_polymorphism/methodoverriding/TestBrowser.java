@@ -4,7 +4,7 @@ public class TestBrowser
 {
     public static void main(String[] args) {
 
-        BaseClass test = new Edge();
+        BaseClass test = new Chrome();
         test.login();
 
     }

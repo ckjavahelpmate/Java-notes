@@ -1,9 +1,7 @@
 package oops.c10_polymorphism.methodoverriding;
 
-public class BaseClass
+public abstract class BaseClass
 {
-    public void login()
-    {
-        System.out.println("loged in");
-    }
+    public abstract void login() ;
+
 }

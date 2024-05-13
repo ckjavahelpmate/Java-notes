@@ -23,8 +23,8 @@ class which gives states and behaviours is known as Parent class
 class which receives states and behaviours is known as Child class
 Inheritance can be Achieved using 2 keywords
 ============================================
-1) extends ==> must be used with child class
-2) implements
+1) extends ==> is used when parent and child are same type templates
+2) implements ==> is used when parent and child different type templates
 Syntax :
 =========
 class  parent
