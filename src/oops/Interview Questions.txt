@@ -1,0 +1,93 @@
+1)what is smoke testing?
+2)what is sanity testing?
+3)what is regression testing?
+4)what is agile?
+5)what is duration of sprint? 
+	==> 15 days
+6)what is your role in sprint?
+	==> 1.if new feature came then we write test case and we do manual execution.
+	==> 2.if new feature is not there then i will be writting test script for stable test case
+7)what is release duration? 
+	==> 1 month
+8)what is sprint planning?
+9)what is product backlog?
+	==>
+10)how will you get requirement?
+	==> for every requirement BA will create story in jira.
+11)what is Epic?
+	==> main feature
+12)what is userstory?
+	==> sub part of features are story
+13)what is scrum team?
+14)what is the role of scrum master?
+15)where do you write test case?
+	==> writting in Excel and converting into CSV and uploading into jira.
+16)what is the format manual test case?
+	==> SN|requirement id|testcase id|test type|precondition|test step|expected result|actual result|.
+17)what is traciablity matrix?
+	==> To check each requirement has minimun test case.
+18)how do you prepare traceability matrix?
+	==> 
+19)Difference between Test-scenario and Test-case?
+	==>
+20)what is defect life cycle?
+	==> New 
+	==> we have to raise issue in jira
+	   |Module|Summury|Description|step to reproduce|Actual result|Expected result|Priority|Seviority|
+	   testing-type|requirement-id|Assignee|
+	==> Status will be open
+	==> Developer will move to inprogress
+	==> Developer will put status as |won't fix|duplicate|Not a bug|Deffered|fixed|Not able to reproduce|
+	==> Test engineer must verify the status and if it is fixed close or reopen. 
+21)How many test scripts have you written?
+	==> 150+ test scripts
+22)How many defect have you found in Automation?
+	==>20 to 30 defects
+23)How do you do when your test scipts fail?
+	==> check manual root cause of problem if it is bug then i will raise issue in jira.
+24)When do you run test scripts?
+	==> When ever we are getting new build and before deploying build to production.
+25)How you will resolve conflict?
+	==>we have to discuss internally and pull the code from master and update and push.
+26)How do you prioritize test case?
+	==>I will cover all the P1 & P2 Test cases.
+	==>I will cover basic and major feature.
+27)How many Environments you had?
+	==>
+28)In which Environment you were working?
+	==> 
+29)How do handle if you get defect in Production?
+	==>
+30)How do you write test case if requirement not clear?
+	==> Check with Dev And BA for requirement and try to get understanding of application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
