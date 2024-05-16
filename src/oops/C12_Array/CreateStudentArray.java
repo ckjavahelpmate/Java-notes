@@ -36,7 +36,6 @@ public class CreateStudentArray {
 }
 
 /*
-
    1.WAJPT read 5 integer values from user and store in array and print in reverse order
    2.WAJPT find sum of Array elements.
    3.WAJPT find sum even elements of array.
@@ -45,6 +44,4 @@ public class CreateStudentArray {
    6.WAJPT find total cost spent on employees.
    7.WAJPT print employee details who is getting higher salary.
    8.WAJPT find the average salary spent by the company.
-
- */
-
+*/
