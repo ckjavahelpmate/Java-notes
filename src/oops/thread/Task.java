@@ -6,10 +6,13 @@ public class Task extends Thread {
     public void run() {
         singing();
     }
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Task thread2 = new Task();
         thread2.start();
-//      join() , yield() , wait() , notify() ==> InterThread communication functions
+        // main() ==> start() ==> will create new thread instance ==> run() ==> thread will join thread Queue
+
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name ");
         String name = sc.nextLine();
@@ -20,6 +23,7 @@ public class Task extends Thread {
         System.out.println("Name :: " + name);
         System.out.println("Age :: " + age);
         System.out.println("Salary :: " + sal);
+
     }
     public static void singing() {
         for (int i = 1; i <= 10; i++) {
