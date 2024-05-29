@@ -6,9 +6,10 @@ import java.util.Scanner;
 2.We do not have functions  to perform Create/Read/Update/Delete Operation
  */
 public class EmployeeApp {
-    static Employee[] emps = new Employee[0]  ;
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        ArrayList al = new ArrayList() ; // ==> ArrayList class will allow duplicate Objects
+        HashSet hs = new HashSet(); // ==> HashSet class will not allow duplicate Objects
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to Employee Details Management App");
         System.out.println("==========================================");
@@ -32,15 +33,15 @@ public class EmployeeApp {
                         System.out.println("Enter your salary");
                         double sal = sc.nextDouble();
                         Employee e = new Employee(id, name, sal );
-                        addEmplyee(e);
+                        hs.addEmployee(e);
                         break;
                     case 2:
-                        listOfEmployee();
+                        hs.listOfEmployee();
                         break;
                     case 3:
                         System.out.println("Enter id of Employee to be Deleted from Database");
                         int tempId = sc.nextInt() ;
-                        deleteEmployee(tempId);
+                        hs.deleteEmployee(tempId);
                         break;
                     case 4:
                         repeat = false;
@@ -57,33 +58,7 @@ public class EmployeeApp {
         }
         System.out.println("Thanks for Using Employee Details Management App");
     }
-    public static void addEmplyee(Employee e)
-    {
-       Employee[] temp = new Employee[ emps.length + 1 ]; // temp ==> [ employee@100abc ]
-        for( int i =0 ; i < emps.length ; i++ )
-        {
-            temp[i] = emps[i] ;
-        }
-        temp[ temp.length-1 ] = e ;
-       emps = temp ;
-        System.out.println("Employee with Id "+ e.id + " is added to Database");
-        System.out.println("=================================================");
 
-    }
-    public static void listOfEmployee()
-    {
-        System.out.println("List of Employees in Database");
-        System.out.println("=============================");
-        for( int i = 0; i < emps.length ; i++ )
-        {
-            System.out.println( emps[i] );
-        }
-        System.out.println("=============================");
-    }
-    public static void deleteEmployee(int id)
-    {
-        // write your code here
-    }
 }
 class Employee
 {
