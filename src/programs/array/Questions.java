@@ -17,6 +17,13 @@ public class Questions {
         8.Print mid to first and mid to last ==> 5 6 4 7 3 8 2 9 1 / 5 4 6 3 7 2 8 1 9
         9.Print Even Index Elements
 
+
+        Question
+        ==========
+        1.find given element is present or not
+        2.Find the max Element in Array
+        3.Print Missing Numbers
+
     2.Get Sum of Elements
         Assignments
         ===================================================
@@ -38,11 +45,20 @@ public class Questions {
         2.Get Count of Only Even Elements
         3.Get Count of Only Prime Numbers
 
-    Modify/Manipulate
+    Modify/Manipulate :: Note :: Array size is fixed
     =======================================================
     1.Insert element
+        1.insert Given Element at given index [ 1, 2, 3, 4, 5 ]  el = 888 , index = 2 output :: [ 1, 2, 888, 3, 4, 5 ]
+
     2.Delete Element
+        1.Delete given index element [ 1, 2, 3, 4, 5 ] index=3 output :: [ 1, 2, 3, 5 ]
+        2.Delete Given Element from Array [ 1, 2, 3, 4 ,5 ] ele = 3 , output::[ 1, 2, 4, 5 ]
+
     3.Update Element
+        1.Set Given index value to 888; [ 1, 2, 3, 4, 5 ] ele = 888 , index=2 ;  output:: [ 1, 2, 888 , 4 , 5 ]
+        2.Add 10 to even index elements and multiply Odd index elements with 100;
+            input[ 1, 2, 3, 4, 5 ]   output ::[ 11, 200, 13, 400, 15 ]
+        3.Reverse Array input[ 1, 2, 3, 4 ]  output :: [ 4, 3, 2, 1 ]
 
      */
 }
