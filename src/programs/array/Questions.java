@@ -51,7 +51,7 @@ public class Questions {
         1.insert Given Element at given index [ 1, 2, 3, 4, 5 ]  el = 888 , index = 2 output :: [ 1, 2, 888, 3, 4, 5 ]
 
     2.Delete Element
-        1.Delete given index element [ 1, 2, 3, 4, 5 ] index=3 output :: [ 1, 2, 3, 5 ]
+        1.Delete given index element [  ] index=3 output :: [ 1, 2, 3, 5 ]
         2.Delete Given Element from Array [ 1, 2, 3, 4 ,5 ] ele = 3 , output::[ 1, 2, 4, 5 ]
 
     3.Update Element
@@ -59,6 +59,13 @@ public class Questions {
         2.Add 10 to even index elements and multiply Odd index elements with 100;
             input[ 1, 2, 3, 4, 5 ]   output ::[ 11, 200, 13, 400, 15 ]
         3.Reverse Array input[ 1, 2, 3, 4 ]  output :: [ 4, 3, 2, 1 ]
+
+
+    Collections
+    ===========
+    1.Print the Frequency of elements in Array
+        input[ 1, 2, 2, 3, 1, 2, 4, 5, 4 ]   output ::  1=2 , 2=3 , 3=1 , 4=2, 5=1
+
 
      */
 }
